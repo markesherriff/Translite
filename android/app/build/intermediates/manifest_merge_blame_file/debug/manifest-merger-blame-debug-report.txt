@@ -1,0 +1,298 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.project1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:react-native-community_netinfo] C:\Users\marke\React-Native\Project1\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+14-->[:react-native-community_netinfo] C:\Users\marke\React-Native\Project1\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+15
+16    <meta-data
+16-->[:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-11:31
+17        android:name="com.google.mlkit.vision.DEPENDENCIES"
+17-->[:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-60
+18        android:value="ocr" />
+18-->[:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-28
+19
+20    <queries>
+20-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:11:5-13:15
+21        <package android:name="com.facebook.katana" />
+21-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:12:9-55
+21-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:12:18-52
+22    </queries>
+23
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+24-->[com.android.installreferrer:installreferrer:1.0] C:\Users\marke\.gradle\caches\transforms-3\8e22a0dc4e5e411924791bd250c80b1d\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+24-->[com.android.installreferrer:installreferrer:1.0] C:\Users\marke\.gradle\caches\transforms-3\8e22a0dc4e5e411924791bd250c80b1d\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+25
+26    <application
+26-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:6:5-27:19
+27        android:name="com.project1.MainApplication"
+27-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:7:7-38
+28        android:allowBackup="false"
+28-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:11:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.5.0] C:\Users\marke\.gradle\caches\transforms-3\540dbfb90b248d7b59cd154497c15f99\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:9:7-41
+32        android:label="@string/app_name"
+32-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:8:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:10:7-52
+34        android:supportsRtl="true"
+34-->[com.facebook.android:facebook-android-sdk:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5e5603fd611a4e986c25b3ed4b9b1dbd\transformed\jetified-facebook-android-sdk-6.5.1\AndroidManifest.xml:28:18-44
+35        android:theme="@style/AppTheme"
+35-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:12:7-38
+36        android:usesCleartextTraffic="true" >
+36-->C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:8:9-44
+37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+37-->C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:11:9-86
+37-->C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:11:19-83
+38        <activity
+38-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:13:7-23:18
+39            android:name="com.project1.MainActivity"
+39-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:14:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+40-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:16:9-86
+41            android:label="@string/app_name"
+41-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:15:9-41
+42            android:launchMode="singleTask"
+42-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:17:9-40
+43            android:windowSoftInputMode="adjustPan" >
+43-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:18:9-48
+44            <intent-filter>
+44-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:19:9-22:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:20:13-65
+45-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:20:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:21:13-73
+47-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:21:23-70
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:24:7-26:56
+51            android:name="com.facebook.ads.InterstitialAdActivity"
+51-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:25:3-57
+52            android:configChanges="keyboardHidden|orientation" />
+52-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:26:3-53
+53
+54        <provider
+54-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+55            android:name="com.imagepicker.ImagePickerProvider"
+55-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+56            android:authorities="com.project1.imagepickerprovider"
+56-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+57            android:exported="false"
+57-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+58            android:grantUriPermissions="true" >
+58-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+59            <meta-data
+59-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:70
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+61                android:resource="@xml/imagepicker_provider_paths" />
+61-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+62        </provider>
+63
+64        <activity
+64-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:30:9-33:66
+65            android:name="com.facebook.FacebookActivity"
+65-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:31:13-57
+66            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+66-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:32:13-96
+67            android:theme="@style/com_facebook_activity_theme" />
+67-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:33:13-63
+68        <activity android:name="com.facebook.CustomTabMainActivity" />
+68-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:34:9-71
+68-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:34:19-68
+69        <activity
+69-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:35:9-49:20
+70            android:name="com.facebook.CustomTabActivity"
+70-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:36:13-58
+71            android:exported="true" >
+71-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:37:13-36
+72            <intent-filter>
+72-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:39:13-48:29
+73                <action android:name="android.intent.action.VIEW" />
+73-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:40:17-69
+73-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:40:25-66
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:42:17-76
+75-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:42:27-73
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:43:17-78
+76-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:43:27-75
+77
+78                <data
+78-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:45:17-47:50
+79                    android:host="cct.com.project1"
+79-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:46:21-56
+80                    android:scheme="fbconnect" />
+80-->[com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:47:21-47
+81            </intent-filter>
+82        </activity>
+83
+84        <service
+84-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\marke\.gradle\caches\transforms-3\d6d08ee02cd630fd53ab0216f21311d2\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:9:9-15:19
+85            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+85-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\marke\.gradle\caches\transforms-3\d6d08ee02cd630fd53ab0216f21311d2\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:10:13-91
+86            android:directBootAware="true"
+86-->[com.google.mlkit:common:17.1.1] C:\Users\marke\.gradle\caches\transforms-3\f1b9da7300a5c1c841980885a3f69ef4\transformed\jetified-common-17.1.1\AndroidManifest.xml:17:13-43
+87            android:exported="false" >
+87-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\marke\.gradle\caches\transforms-3\d6d08ee02cd630fd53ab0216f21311d2\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:11:13-37
+88            <meta-data
+88-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\marke\.gradle\caches\transforms-3\d6d08ee02cd630fd53ab0216f21311d2\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:12:13-14:85
+89                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+89-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\marke\.gradle\caches\transforms-3\d6d08ee02cd630fd53ab0216f21311d2\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:13:17-114
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\marke\.gradle\caches\transforms-3\d6d08ee02cd630fd53ab0216f21311d2\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:14:17-82
+91            <meta-data
+91-->[com.google.mlkit:vision-common:16.5.0] C:\Users\marke\.gradle\caches\transforms-3\55078cb985f852d16383fc5044498b4c\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+92                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+92-->[com.google.mlkit:vision-common:16.5.0] C:\Users\marke\.gradle\caches\transforms-3\55078cb985f852d16383fc5044498b4c\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.mlkit:vision-common:16.5.0] C:\Users\marke\.gradle\caches\transforms-3\55078cb985f852d16383fc5044498b4c\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+94            <meta-data
+94-->[com.google.mlkit:common:17.1.1] C:\Users\marke\.gradle\caches\transforms-3\f1b9da7300a5c1c841980885a3f69ef4\transformed\jetified-common-17.1.1\AndroidManifest.xml:20:13-22:85
+95                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+95-->[com.google.mlkit:common:17.1.1] C:\Users\marke\.gradle\caches\transforms-3\f1b9da7300a5c1c841980885a3f69ef4\transformed\jetified-common-17.1.1\AndroidManifest.xml:21:17-120
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.mlkit:common:17.1.1] C:\Users\marke\.gradle\caches\transforms-3\f1b9da7300a5c1c841980885a3f69ef4\transformed\jetified-common-17.1.1\AndroidManifest.xml:22:17-82
+97        </service>
+98
+99        <activity
+99-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:19:9-23:75
+100            android:name="com.facebook.ads.AudienceNetworkActivity"
+100-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:20:13-68
+101            android:configChanges="keyboardHidden|orientation|screenSize"
+101-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:21:13-74
+102            android:exported="false"
+102-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:22:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:23:13-72
+104
+105        <provider
+105-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:25:9-28:40
+106            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+106-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:26:13-75
+107            android:authorities="com.project1.AudienceNetworkContentProvider"
+107-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:27:13-82
+108            android:exported="false" />
+108-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:28:13-37
+109        <provider
+109-->[com.google.mlkit:common:17.1.1] C:\Users\marke\.gradle\caches\transforms-3\f1b9da7300a5c1c841980885a3f69ef4\transformed\jetified-common-17.1.1\AndroidManifest.xml:9:9-13:38
+110            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+110-->[com.google.mlkit:common:17.1.1] C:\Users\marke\.gradle\caches\transforms-3\f1b9da7300a5c1c841980885a3f69ef4\transformed\jetified-common-17.1.1\AndroidManifest.xml:10:13-78
+111            android:authorities="com.project1.mlkitinitprovider"
+111-->[com.google.mlkit:common:17.1.1] C:\Users\marke\.gradle\caches\transforms-3\f1b9da7300a5c1c841980885a3f69ef4\transformed\jetified-common-17.1.1\AndroidManifest.xml:11:13-69
+112            android:exported="false"
+112-->[com.google.mlkit:common:17.1.1] C:\Users\marke\.gradle\caches\transforms-3\f1b9da7300a5c1c841980885a3f69ef4\transformed\jetified-common-17.1.1\AndroidManifest.xml:12:13-37
+113            android:initOrder="99" />
+113-->[com.google.mlkit:common:17.1.1] C:\Users\marke\.gradle\caches\transforms-3\f1b9da7300a5c1c841980885a3f69ef4\transformed\jetified-common-17.1.1\AndroidManifest.xml:13:13-35
+114
+115        <activity
+115-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\marke\.gradle\caches\transforms-3\6cee5dccd2a60ab1a2b266eae79fa6d4\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+116            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+116-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\marke\.gradle\caches\transforms-3\6cee5dccd2a60ab1a2b266eae79fa6d4\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+117            android:exported="false"
+117-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\marke\.gradle\caches\transforms-3\6cee5dccd2a60ab1a2b266eae79fa6d4\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+118-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\marke\.gradle\caches\transforms-3\6cee5dccd2a60ab1a2b266eae79fa6d4\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+119
+120        <meta-data
+120-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\marke\.gradle\caches\transforms-3\b4572a4f69510f2208f482ec52fe8e1f\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+121            android:name="com.google.android.gms.version"
+121-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\marke\.gradle\caches\transforms-3\b4572a4f69510f2208f482ec52fe8e1f\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+122            android:value="@integer/google_play_services_version" />
+122-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\marke\.gradle\caches\transforms-3\b4572a4f69510f2208f482ec52fe8e1f\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+123
+124        <provider
+124-->[com.facebook.android:facebook-marketing:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\806359b417c946e66107f64025ad468a\transformed\jetified-facebook-marketing-6.5.1\AndroidManifest.xml:29:9-32:40
+125            android:name="com.facebook.marketing.internal.MarketingInitProvider"
+125-->[com.facebook.android:facebook-marketing:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\806359b417c946e66107f64025ad468a\transformed\jetified-facebook-marketing-6.5.1\AndroidManifest.xml:30:13-81
+126            android:authorities="com.project1.MarketingInitProvider"
+126-->[com.facebook.android:facebook-marketing:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\806359b417c946e66107f64025ad468a\transformed\jetified-facebook-marketing-6.5.1\AndroidManifest.xml:31:13-73
+127            android:exported="false" />
+127-->[com.facebook.android:facebook-marketing:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\806359b417c946e66107f64025ad468a\transformed\jetified-facebook-marketing-6.5.1\AndroidManifest.xml:32:13-37
+128        <!--
+129         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+130         with the application context. This config is merged in with the host app's manifest,
+131         but there can only be one provider with the same authority activated at any given
+132         point; so if the end user has two or more different apps that use Facebook SDK, only the
+133         first one will be able to use the provider. To work around this problem, we use the
+134         following placeholder in the authority to identify each host application as if it was
+135         a completely different provider.
+136        -->
+137        <provider
+137-->[com.facebook.android:facebook-core:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\20835fb0c7e5654da154988ba79766be\transformed\jetified-facebook-core-6.5.1\AndroidManifest.xml:39:9-42:40
+138            android:name="com.facebook.internal.FacebookInitProvider"
+138-->[com.facebook.android:facebook-core:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\20835fb0c7e5654da154988ba79766be\transformed\jetified-facebook-core-6.5.1\AndroidManifest.xml:40:13-70
+139            android:authorities="com.project1.FacebookInitProvider"
+139-->[com.facebook.android:facebook-core:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\20835fb0c7e5654da154988ba79766be\transformed\jetified-facebook-core-6.5.1\AndroidManifest.xml:41:13-72
+140            android:exported="false" />
+140-->[com.facebook.android:facebook-core:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\20835fb0c7e5654da154988ba79766be\transformed\jetified-facebook-core-6.5.1\AndroidManifest.xml:42:13-37
+141
+142        <receiver
+142-->[com.facebook.android:facebook-core:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\20835fb0c7e5654da154988ba79766be\transformed\jetified-facebook-core-6.5.1\AndroidManifest.xml:44:9-50:20
+143            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+143-->[com.facebook.android:facebook-core:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\20835fb0c7e5654da154988ba79766be\transformed\jetified-facebook-core-6.5.1\AndroidManifest.xml:45:13-86
+144            android:exported="false" >
+144-->[com.facebook.android:facebook-core:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\20835fb0c7e5654da154988ba79766be\transformed\jetified-facebook-core-6.5.1\AndroidManifest.xml:46:13-37
+145            <intent-filter>
+145-->[com.facebook.android:facebook-core:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\20835fb0c7e5654da154988ba79766be\transformed\jetified-facebook-core-6.5.1\AndroidManifest.xml:47:13-49:29
+146                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+146-->[com.facebook.android:facebook-core:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\20835fb0c7e5654da154988ba79766be\transformed\jetified-facebook-core-6.5.1\AndroidManifest.xml:48:17-95
+146-->[com.facebook.android:facebook-core:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\20835fb0c7e5654da154988ba79766be\transformed\jetified-facebook-core-6.5.1\AndroidManifest.xml:48:25-92
+147            </intent-filter>
+148        </receiver>
+149
+150        <service
+150-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\marke\.gradle\caches\transforms-3\61c4b96fd6afa09eb1be3604e1af824c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+151            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+151-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\marke\.gradle\caches\transforms-3\61c4b96fd6afa09eb1be3604e1af824c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+152            android:exported="false" >
+152-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\marke\.gradle\caches\transforms-3\61c4b96fd6afa09eb1be3604e1af824c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+153            <meta-data
+153-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\marke\.gradle\caches\transforms-3\61c4b96fd6afa09eb1be3604e1af824c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+154                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+154-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\marke\.gradle\caches\transforms-3\61c4b96fd6afa09eb1be3604e1af824c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+155                android:value="cct" />
+155-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\marke\.gradle\caches\transforms-3\61c4b96fd6afa09eb1be3604e1af824c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+156        </service>
+157        <service
+157-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\marke\.gradle\caches\transforms-3\465fb35821d053743fece05b8c1ef7f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+158            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+158-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\marke\.gradle\caches\transforms-3\465fb35821d053743fece05b8c1ef7f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+159            android:exported="false"
+159-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\marke\.gradle\caches\transforms-3\465fb35821d053743fece05b8c1ef7f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+160            android:permission="android.permission.BIND_JOB_SERVICE" >
+160-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\marke\.gradle\caches\transforms-3\465fb35821d053743fece05b8c1ef7f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+161        </service>
+162
+163        <receiver
+163-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\marke\.gradle\caches\transforms-3\465fb35821d053743fece05b8c1ef7f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+164            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+164-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\marke\.gradle\caches\transforms-3\465fb35821d053743fece05b8c1ef7f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+165            android:exported="false" />
+165-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\marke\.gradle\caches\transforms-3\465fb35821d053743fece05b8c1ef7f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+166    </application>
+167
+168</manifest>
