@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\marke\\React-Native\\Project1\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
+            "outputFile": "C:\\Users\\marke\\React-Native\\Translator-Mobile\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
             "map": [
                 {
                     "source": "C:\\Users\\marke\\.gradle\\caches\\transforms-3\\b4572a4f69510f2208f482ec52fe8e1f\\transformed\\jetified-play-services-basement-17.6.0\\res\\values-lo\\values.xml",

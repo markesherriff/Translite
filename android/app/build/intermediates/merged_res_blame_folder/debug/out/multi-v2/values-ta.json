@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\marke\\React-Native\\Project1\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "outputFile": "C:\\Users\\marke\\React-Native\\Translator-Mobile\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
             "map": [
                 {
                     "source": "C:\\Users\\marke\\.gradle\\caches\\transforms-3\\6dd0025f7b3f2a5d8d32f02d7be9e386\\transformed\\jetified-facebook-login-6.5.1\\res\\values-ta\\values-ta.xml",

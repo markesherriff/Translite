@@ -9,24 +9,24 @@
 9        android:targetSdkVersion="30" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:5:5-77
-11-->C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:5:22-75
+11-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:4:5-67
-12-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:4:22-64
+12-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->[:react-native-community_netinfo] C:\Users\marke\React-Native\Project1\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
-14-->[:react-native-community_netinfo] C:\Users\marke\React-Native\Project1\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+14-->[:react-native-community_netinfo] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+14-->[:react-native-community_netinfo] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
 15
 16    <meta-data
-16-->[:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-11:31
+16-->[:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-11:31
 17        android:name="com.google.mlkit.vision.DEPENDENCIES"
-17-->[:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-60
+17-->[:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-60
 18        android:value="ocr" />
-18-->[:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-28
+18-->[:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-28
 19
 20    <queries>
 20-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:11:5-13:15
@@ -40,75 +40,75 @@
 24-->[com.android.installreferrer:installreferrer:1.0] C:\Users\marke\.gradle\caches\transforms-3\8e22a0dc4e5e411924791bd250c80b1d\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
 25
 26    <application
-26-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:6:5-27:19
+26-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:6:5-27:19
 27        android:name="com.project1.MainApplication"
-27-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:7:7-38
+27-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:7:7-38
 28        android:allowBackup="false"
-28-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:11:7-34
+28-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:11:7-34
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 29-->[androidx.core:core:1.5.0] C:\Users\marke\.gradle\caches\transforms-3\540dbfb90b248d7b59cd154497c15f99\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 30        android:debuggable="true"
 31        android:icon="@mipmap/ic_launcher"
-31-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:9:7-41
+31-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:9:7-41
 32        android:label="@string/app_name"
-32-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:8:7-39
+32-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:8:7-39
 33        android:roundIcon="@mipmap/ic_launcher_round"
-33-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:10:7-52
+33-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:10:7-52
 34        android:supportsRtl="true"
 34-->[com.facebook.android:facebook-android-sdk:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5e5603fd611a4e986c25b3ed4b9b1dbd\transformed\jetified-facebook-android-sdk-6.5.1\AndroidManifest.xml:28:18-44
 35        android:theme="@style/AppTheme"
-35-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:12:7-38
+35-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:12:7-38
 36        android:usesCleartextTraffic="true" >
-36-->C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:8:9-44
+36-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:8:9-44
 37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-37-->C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:11:9-86
-37-->C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:11:19-83
+37-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:11:9-86
+37-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:11:19-83
 38        <activity
-38-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:13:7-23:18
+38-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:13:7-23:18
 39            android:name="com.project1.MainActivity"
-39-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:14:9-37
+39-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:14:9-37
 40            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-40-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:16:9-86
+40-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:16:9-86
 41            android:label="@string/app_name"
-41-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:15:9-41
+41-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:15:9-41
 42            android:launchMode="singleTask"
-42-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:17:9-40
+42-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:17:9-40
 43            android:windowSoftInputMode="adjustPan" >
-43-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:18:9-48
+43-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:18:9-48
 44            <intent-filter>
-44-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:19:9-22:25
+44-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:19:9-22:25
 45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:20:13-65
-45-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:20:21-62
+45-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:20:13-65
+45-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:20:21-62
 46
 47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:21:13-73
-47-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:21:23-70
+47-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:21:13-73
+47-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:21:23-70
 48            </intent-filter>
 49        </activity>
 50        <activity
-50-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:24:7-26:56
+50-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:24:7-26:56
 51            android:name="com.facebook.ads.InterstitialAdActivity"
-51-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:25:3-57
+51-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:25:3-57
 52            android:configChanges="keyboardHidden|orientation" />
-52-->C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:26:3-53
+52-->C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:26:3-53
 53
 54        <provider
-54-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+54-->[:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
 55            android:name="com.imagepicker.ImagePickerProvider"
-55-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+55-->[:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
 56            android:authorities="com.project1.imagepickerprovider"
-56-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+56-->[:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
 57            android:exported="false"
-57-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+57-->[:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
 58            android:grantUriPermissions="true" >
-58-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+58-->[:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
 59            <meta-data
-59-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:70
+59-->[:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:70
 60                android:name="android.support.FILE_PROVIDER_PATHS"
-60-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+60-->[:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
 61                android:resource="@xml/imagepicker_provider_paths" />
-61-->[:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+61-->[:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
 62        </provider>
 63
 64        <activity

@@ -1,18 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:1:1-28:12
-INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:1:1-28:12
-INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:1:1-28:12
-INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:1:1-28:12
-MERGED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:1:1-28:12
+ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:1:1-28:12
+MERGED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:1:1-28:12
 MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\24c7b3b7628557c2352d51b3335f48b6\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\d1f78a3bfe608333c8a8682ec4347618\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
-MERGED from [:react-native-async-storage_async-storage] C:\Users\marke\React-Native\Project1\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Project1\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-12:12
-MERGED from [:react-native-fbads] C:\Users\marke\React-Native\Project1\node_modules\react-native-fbads\android\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
-MERGED from [:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-async-storage_async-storage] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-fbads] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-fbads\android\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.react:react-native:0.67.3] C:\Users\marke\.gradle\caches\transforms-3\92ad874927ba6226f66e1447581633a4\transformed\jetified-react-native-0.67.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\marke\.gradle\caches\transforms-3\39a712a6e0c970a26e331485d5dcf0ca\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.android:facebook-android-sdk:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5e5603fd611a4e986c25b3ed4b9b1dbd\transformed\jetified-facebook-android-sdk-6.5.1\AndroidManifest.xml:21:1-31:12
@@ -100,28 +100,28 @@ MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\marke\.gradle\caches\tra
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\marke\.gradle\caches\transforms-3\c5d95c619fd02fa8111ec61afe52e832\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\marke\.gradle\caches\transforms-3\b632ba35fc3ce7ef2fe1af80f1c54dc1\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\marke\.gradle\caches\transforms-3\8e22a0dc4e5e411924791bd250c80b1d\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:2:1-13:12
 	package
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:2:3-25
-		INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:2:3-25
-		INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:2:3-25
+		INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:2:3-25
+		INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:1:1-28:12
-		INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:1:1-28:12
+		INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:1:1-28:12
-		INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:1:1-28:12
+		INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:4:5-67
 MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:15:5-67
@@ -129,13 +129,13 @@ MERGED from [com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gr
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\marke\.gradle\caches\transforms-3\61c4b96fd6afa09eb1be3604e1af824c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\marke\.gradle\caches\transforms-3\61c4b96fd6afa09eb1be3604e1af824c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:6:5-27:19
-MERGED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:6:5-27:19
-MERGED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:6:5-27:19
-MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
-MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:6:5-27:19
+MERGED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:6:5-27:19
+MERGED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:6:5-27:19
+MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
 MERGED from [com.facebook.react:react-native:0.67.3] C:\Users\marke\.gradle\caches\transforms-3\92ad874927ba6226f66e1447581633a4\transformed\jetified-react-native-0.67.3\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.67.3] C:\Users\marke\.gradle\caches\transforms-3\92ad874927ba6226f66e1447581633a4\transformed\jetified-react-native-0.67.3\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.android:facebook-android-sdk:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5e5603fd611a4e986c25b3ed4b9b1dbd\transformed\jetified-facebook-android-sdk-6.5.1\AndroidManifest.xml:28:5-29:19
@@ -195,77 +195,77 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\marke\.gr
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-android-sdk:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5e5603fd611a4e986c25b3ed4b9b1dbd\transformed\jetified-facebook-android-sdk-6.5.1\AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:8:7-39
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:8:7-39
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:8:7-39
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:8:7-39
 	tools:ignore
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:10:9-48
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:10:7-52
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:10:7-52
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:10:7-52
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:10:7-52
 	tools:targetApi
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:9:9-29
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:9:7-41
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:9:7-41
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:9:7-41
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:9:7-41
 	android:allowBackup
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:11:7-34
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:12:7-38
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:12:7-38
 	android:usesCleartextTraffic
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:8:9-44
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:7:7-38
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:7:7-38
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:7:7-38
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:7:7-38
 activity#com.project1.MainActivity
-ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:13:7-23:18
+ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:13:7-23:18
 	android:label
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:15:9-41
 	android:launchMode
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:17:9-40
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:17:9-40
 	android:windowSoftInputMode
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:18:9-48
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:18:9-48
 	android:configChanges
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:16:9-86
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:16:9-86
 	android:name
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:14:9-37
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:19:9-22:25
+ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:19:9-22:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:20:13-65
+ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:20:13-65
 	android:name
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:20:21-62
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:21:13-73
+ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:21:13-73
 	android:name
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:21:23-70
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:21:23-70
 activity#com.facebook.ads.InterstitialAdActivity
-ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:24:7-26:56
+ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:24:7-26:56
 	android:configChanges
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:26:3-53
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:26:3-53
 	android:name
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml:25:3-57
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml:25:3-57
 uses-sdk
-INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml
 MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\24c7b3b7628557c2352d51b3335f48b6\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\24c7b3b7628557c2352d51b3335f48b6\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\d1f78a3bfe608333c8a8682ec4347618\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\d1f78a3bfe608333c8a8682ec4347618\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-async-storage_async-storage] C:\Users\marke\React-Native\Project1\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-async-storage_async-storage] C:\Users\marke\React-Native\Project1\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Project1\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Project1\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-fbads] C:\Users\marke\React-Native\Project1\node_modules\react-native-fbads\android\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-fbads] C:\Users\marke\React-Native\Project1\node_modules\react-native-fbads\android\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fbads] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-fbads\android\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fbads] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-fbads\android\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.67.3] C:\Users\marke\.gradle\caches\transforms-3\92ad874927ba6226f66e1447581633a4\transformed\jetified-react-native-0.67.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.67.3] C:\Users\marke\.gradle\caches\transforms-3\92ad874927ba6226f66e1447581633a4\transformed\jetified-react-native-0.67.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\marke\.gradle\caches\transforms-3\39a712a6e0c970a26e331485d5dcf0ca\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
@@ -440,30 +440,30 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\marke\.
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\marke\.gradle\caches\transforms-3\b632ba35fc3ce7ef2fe1af80f1c54dc1\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\marke\.gradle\caches\transforms-3\8e22a0dc4e5e411924791bd250c80b1d\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\marke\.gradle\caches\transforms-3\8e22a0dc4e5e411924791bd250c80b1d\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:5:5-77
+ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:5:22-75
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:5:22-75
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:11:9-86
+ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:11:9-86
 	android:name
-		ADDED from C:\Users\marke\React-Native\Project1\android\app\src\debug\AndroidManifest.xml:11:19-83
+		ADDED from C:\Users\marke\React-Native\Translator-Mobile\android\app\src\debug\AndroidManifest.xml:11:19-83
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
-MERGED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Project1\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-76
-MERGED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Project1\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-76
+MERGED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-76
+MERGED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.99.0] C:\Users\marke\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Project1\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+ADDED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
 MERGED from [com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:16:5-79
 MERGED from [com.facebook.android:audience-network-sdk:6.8.0] C:\Users\marke\.gradle\caches\transforms-3\9c41ad8338701ba59184c63e2cb31a63\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:16:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\marke\.gradle\caches\transforms-3\61c4b96fd6afa09eb1be3604e1af824c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
@@ -471,29 +471,29 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Us
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\marke\.gradle\caches\transforms-3\465fb35821d053743fece05b8c1ef7f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\marke\.gradle\caches\transforms-3\465fb35821d053743fece05b8c1ef7f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Project1\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+		ADDED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Translator-Mobile\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
 provider#com.imagepicker.ImagePickerProvider
-ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
-		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
 	android:authorities
-		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
 	android:exported
-		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:70
+ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:70
 	android:resource
-		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
 	android:name
-		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Project1\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+		ADDED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
 meta-data#com.google.mlkit.vision.DEPENDENCIES
-ADDED from [:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-11:31
+ADDED from [:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-11:31
 	android:value
-		ADDED from [:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-28
+		ADDED from [:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-28
 	android:name
-		ADDED from [:react-native-text-recognition] C:\Users\marke\React-Native\Project1\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-60
+		ADDED from [:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-60
 activity#com.facebook.FacebookActivity
 ADDED from [com.facebook.android:facebook-common:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5b91579dd296f3a0f5ff8572958016d7\transformed\jetified-facebook-common-6.5.1\AndroidManifest.xml:30:9-33:66
 	android:configChanges
