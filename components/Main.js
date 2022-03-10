@@ -7,6 +7,7 @@ import {
   ActivityIndicator,
   Platform,
   Dimensions,
+  StatusBar
 } from 'react-native';
 
 //community installed packages
@@ -20,19 +21,13 @@ import LanguagePicker from './LanguagePicker';
 import LanguageButton from './LanguageButton';
 import InputView from './InputView';
 import alerts from './SimpleAlerts';
+import theme from './Theme';
+import AppBar from './AppBar';
 
 
 const windowHeight = Dimensions.get('window').height;
 
-const colorTheme = {
-  "primary": "#323233",
-  "p2": '#e6e8eb',
-  "p3": "#747575",
-  "secondary": "#516c9e",
-  "s2": "#6b7c9c"
-};
-
-const loadingIndicator = <ActivityIndicator size="large" color={colorTheme.p3} />;
+const loadingIndicator = <ActivityIndicator size="large" color={theme.colors.a2} />;
 
 const interstitialId = Platform.OS === 'ios' ? FBADS_IOS_INTERSTITIAL : FBADS_ANDROID_INTERSTITIAL;
 const runAdTimer = () => {
@@ -42,7 +37,7 @@ const runAdTimer = () => {
       .catch(error => { runAdTimer(); });
   }, 120000); //120,000 == 2 minutes
 };
-runAdTimer();
+//runAdTimer();
 
 export default function Main() {
 
@@ -65,6 +60,31 @@ export default function Main() {
     isOpened: false,
     value: { title: "French - Canada", code: "fr" }
   });
+
+  const saveLangsToStorage = async () => {
+    try {
+      await AsyncStorage.setItem('@langA', JSON.stringify(langA));
+      await AsyncStorage.setItem('@langB', JSON.stringify(langB));
+    } catch (e) { }
+  };
+
+  const getLangsFromStorage = async () => {
+    try {
+      const langAStorage = await AsyncStorage.getItem('@langA');
+      const langBStorage = await AsyncStorage.getItem('@langB');
+      if (langAStorage != null && langBStorage != null) {
+        setLangA(JSON.parse(langAStorage));
+        setLangB(JSON.parse(langBStorage));
+      }
+    } catch (e) { }
+  }
+  useEffect(() => {
+    getLangsFromStorage();
+  }, []);
+  useEffect(() => {
+    saveLangsToStorage();
+  }, [langA, langB]
+  );
 
   const transA = () => translateInput(textA, langA, langB, setTextB);
   const transB = () => translateInput(textB, langB, langA, setTextA);
@@ -101,88 +121,69 @@ export default function Main() {
       });
   };
 
-  const saveLangsToStorage = async () => {
-    try {
-      await AsyncStorage.setItem('@langA', JSON.stringify(langA));
-      await AsyncStorage.setItem('@langB', JSON.stringify(langB));
-    } catch (e) { }
-  };
-
-  const getLangsFromStorage = async () => {
-    try {
-      const langAStorage = await AsyncStorage.getItem('@langA');
-      const langBStorage = await AsyncStorage.getItem('@langB');
-      if (langAStorage != null && langBStorage != null) {
-        setLangA(JSON.parse(langAStorage));
-        setLangB(JSON.parse(langBStorage));
-      }
-    } catch (e) {}
-  }
-
-  useEffect(()=>{
-    getLangsFromStorage();
-  },[]);
-
-  useEffect(()=>{
-    saveLangsToStorage();
-    },[langA, langB]
-  );
-
   return (
-    <SafeAreaView style={styles.container}>
-      <LanguageButton
-        buttonColor={colorTheme.primary}
-        lang={langA}
-        setLang={setLangA}
-      />
-      {
-        textB.isFocused ? <View style={{ marginBottom: 10 }}></View>
-          :
-          <View style={{ ...styles.box, borderColor: colorTheme.primary }}>
-            {
-              langA.isOpened ? <LanguagePicker setLang={setLangA} />
-                :
-                textA.isLoading ? loadingIndicator :
-                  <InputView
-                    initialPlaceHolder='type here...'
-                    text={textA}
-                    setText={setTextA}
-                    translateInput={transA}
-                  />
-            }
-          </View>
-      }
-      <LanguageButton
-        buttonColor={colorTheme.secondary}
-        lang={langB}
-        setLang={setLangB}
-      />
-      {
-        textA.isFocused ? <View style={{ marginBottom: 10 }}></View>
-          :
-          <View style={{ ...styles.box, borderColor: colorTheme.secondary }}>
-            {
-              langB.isOpened ? <LanguagePicker setLang={setLangB} />
-                :
-                textB.isLoading ? loadingIndicator :
-                  <InputView
-                    initialPlaceHolder={'or type here...'} 
-                    text={textB} 
-                    setText={setTextB}
-                    translateInput={transB}
+    <View style={styles.page}>
+      <AppBar />
+      <View style={styles.body}>
+        <LanguageButton
+          buttonColor={theme.colors.a1}
+          lang={langA}
+          setLang={setLangA}
+        />
+        {
+          textB.isFocused ? <View style={{ marginBottom: 10 }}></View>
+            :
+            <View style={{ ...styles.box, borderColor: theme.colors.a1 }}>
+              {
+                langA.isOpened ? <LanguagePicker setLang={setLangA} />
+                  :
+                  textA.isLoading ? loadingIndicator :
+                    <InputView
+                      initialPlaceHolder='type here...'
+                      text={textA}
+                      setText={setTextA}
+                      translateInput={transA}
                     />
-            }
-          </View>
-      }
-    </SafeAreaView>
+              }
+            </View>
+        }
+        <LanguageButton
+          buttonColor={theme.colors.b1}
+          lang={langB}
+          setLang={setLangB}
+        />
+        {
+          textA.isFocused ? <View style={{ marginBottom: 10 }}></View>
+            :
+            <View style={{ ...styles.box, borderColor: theme.colors.b1 }}>
+              {
+                langB.isOpened ? <LanguagePicker setLang={setLangB} />
+                  :
+                  textB.isLoading ? loadingIndicator :
+                    <InputView
+                      initialPlaceHolder={'or type here...'}
+                      text={textB}
+                      setText={setTextB}
+                      translateInput={transB}
+                    />
+              }
+            </View>
+        }
+      </View>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  page: {
     flex: 1,
-    padding: 30,
-    backgroundColor: colorTheme.p2,
+    backgroundColor: theme.colors.a2,
+  },
+  body: {
+    flex: 1,
+    paddingLeft: 30,
+    paddingRight: 30,
+    paddingBottom: 30,
   },
   box: {
     flex: 2,

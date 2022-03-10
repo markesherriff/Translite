@@ -13,6 +13,7 @@ MERGED from [:react-native-community_netinfo] C:\Users\marke\React-Native\Transl
 MERGED from [:react-native-fbads] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-fbads\android\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
 MERGED from [:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-vector-icons] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.67.3] C:\Users\marke\.gradle\caches\transforms-3\92ad874927ba6226f66e1447581633a4\transformed\jetified-react-native-0.67.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\marke\.gradle\caches\transforms-3\39a712a6e0c970a26e331485d5dcf0ca\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.android:facebook-android-sdk:6.5.1] C:\Users\marke\.gradle\caches\transforms-3\5e5603fd611a4e986c25b3ed4b9b1dbd\transformed\jetified-facebook-android-sdk-6.5.1\AndroidManifest.xml:21:1-31:12
@@ -266,6 +267,8 @@ MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-
 MERGED from [:react-native-image-picker] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-text-recognition] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-text-recognition\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] C:\Users\marke\React-Native\Translator-Mobile\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.67.3] C:\Users\marke\.gradle\caches\transforms-3\92ad874927ba6226f66e1447581633a4\transformed\jetified-react-native-0.67.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.67.3] C:\Users\marke\.gradle\caches\transforms-3\92ad874927ba6226f66e1447581633a4\transformed\jetified-react-native-0.67.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\marke\.gradle\caches\transforms-3\39a712a6e0c970a26e331485d5dcf0ca\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44

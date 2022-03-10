@@ -17,6 +17,7 @@ import NetInfo from "@react-native-community/netinfo";
 
 //homemade components and classes
 import alerts from './SimpleAlerts';
+import theme from './Theme';
 
 export default function InputView({ initialPlaceHolder, text, setText, translateInput }) {
 
@@ -44,9 +45,9 @@ export default function InputView({ initialPlaceHolder, text, setText, translate
             }}
           >
             <Image
-              style={styles.actionIcon}
-              source={require('../assets/icons/dropdown.png')}
-            />
+              style={{...styles.actionIcon, aspectRatio: 0.7}}
+              source={require('../assets/icons/dropdown.png')} 
+              />
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.actionButton}
@@ -75,7 +76,7 @@ export default function InputView({ initialPlaceHolder, text, setText, translate
             }}
           >
             <Image
-              style={styles.actionIcon}
+              style={{...styles.actionIcon, aspectRatio: 0.8}}
               source={require('../assets/icons/delete.png')}
             />
           </TouchableOpacity>
@@ -113,7 +114,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   actionButton: {
-    width: 50,
+    width: 30,
     marginRight: 20,
   },
   actionIcon: {
@@ -127,5 +128,6 @@ const styles = StyleSheet.create({
     textAlignVertical: 'top',
     flex: 12,
     fontSize: 20,
+    color: theme.colors.a1
   },
 });

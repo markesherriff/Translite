@@ -7,6 +7,8 @@ import {
   TouchableOpacity,
 } from "react-native";
 
+import theme from './Theme';
+
 export default function LanguageButton({buttonColor, lang, setLang}) {
     return (
       <TouchableOpacity
@@ -30,8 +32,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   langButtonText: {
-    color: 'white',
-    fontSize: 25,
+    color: theme.colors.a2,
+    fontSize: 20,
+    fontWeight: 'bold',
     textAlign: "center",
   },
 });
