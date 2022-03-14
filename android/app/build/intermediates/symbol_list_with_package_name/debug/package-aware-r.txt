@@ -842,6 +842,7 @@ drawable redbox_top_border_background
 drawable rn_edit_text_material
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable translite_splash
 id ALT
 id CTRL
 id FUNCTION
@@ -1190,7 +1191,6 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
-mipmap ic_launcher_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1490,6 +1490,7 @@ style CardView_Dark
 style CardView_Light
 style DialogAnimationFade
 style DialogAnimationSlide
+style LaunchTheme
 style MessengerButton
 style MessengerButton_Blue
 style MessengerButton_Blue_Large

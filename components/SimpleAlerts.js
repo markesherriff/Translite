@@ -46,6 +46,13 @@ class SimpleAlerts{
             true,
         );
     }
+    appInformation = () => {
+        simpleAlert(
+            'Translite 1.0',
+            'Enter text into either box, then submit. The translation will show inside the opposite box.',
+            true,
+        );
+    }
 }
 
 const alerts = new SimpleAlerts();

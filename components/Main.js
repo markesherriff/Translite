@@ -181,9 +181,8 @@ const styles = StyleSheet.create({
   },
   body: {
     flex: 1,
-    paddingLeft: 30,
-    paddingRight: 30,
-    paddingBottom: 30,
+    paddingLeft: 20,
+    paddingRight: 20,
   },
   box: {
     flex: 2,

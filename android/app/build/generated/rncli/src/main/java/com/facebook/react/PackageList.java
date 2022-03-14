@@ -21,8 +21,6 @@ import suraj.tiwari.reactnativefbads.FBAdsPackage;
 import com.imagepicker.ImagePickerPackage;
 // react-native-text-recognition
 import com.reactnativetextrecognition.TextRecognitionPackage;
-// react-native-vector-icons
-import com.oblador.vectoricons.VectorIconsPackage;
 
 public class PackageList {
   private Application application;
@@ -72,8 +70,7 @@ public class PackageList {
       new NetInfoPackage(),
       new FBAdsPackage(),
       new ImagePickerPackage(),
-      new TextRecognitionPackage(),
-      new VectorIconsPackage()
+      new TextRecognitionPackage()
     ));
   }
 }

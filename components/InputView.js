@@ -36,7 +36,7 @@ export default function InputView({ initialPlaceHolder, text, setText, translate
   return (
     <View style={styles.container}>
       {!text.isFocused && text.value != "" ? <View></View> :
-        <View style={{ ...styles.actionView, flex: !text.isFocused ? 2 : 0.8 }}>
+        <View style={{ ...styles.actionView, flex: !text.isFocused ? 5 : 1.5 }}>
           <TouchableOpacity
             style={styles.actionButton}
             onPress={() => {
@@ -45,9 +45,9 @@ export default function InputView({ initialPlaceHolder, text, setText, translate
             }}
           >
             <Image
-              style={{...styles.actionIcon, aspectRatio: 0.7}}
-              source={require('../assets/icons/dropdown.png')} 
-              />
+              style={styles.actionIcon}
+              source={require('../assets/icons/dropdown.png')}
+            />
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.actionButton}
@@ -56,9 +56,9 @@ export default function InputView({ initialPlaceHolder, text, setText, translate
                 'Camera or Library',
                 'Select Photos from Library or Take Photo with Camera?',
                 [
-                  { text: "select photo", onPress: () => { launchImageLibrary({}, setImage); } },
-                  { text: "use camera", onPress: () => { launchCamera({}, setImage); } },
-                  { style: "cancel", text: "dismiss", onPress: () => { { } } },
+                  { style: "cancel", text: "cancel", onPress: () => { { } } },
+                  { text:  "library", onPress: () => { launchImageLibrary({}, setImage); } },
+                  { text: "camera", onPress: () => { launchCamera({}, setImage); } },
                 ],
                 { cancelable: true },
               );

@@ -8,7 +8,9 @@ import {
     StatusBar
 } from "react-native";
 
+//homemade components and classes
 import theme from './Theme';
+import alerts from './SimpleAlerts';
 
 export default function AppBar({ buttonColor, lang, setLang }) {
 
@@ -16,14 +18,14 @@ export default function AppBar({ buttonColor, lang, setLang }) {
         <View style={styles.container}>
             <StatusBar
                 animated={true}
-                backgroundColor={theme.colors.a3}
+                backgroundColor={theme.colors.a1}
                 hidden={false} 
                 />
             <Text style={styles.title}>
-                Translator Pro
+                Translite
             </Text>
-            <TouchableOpacity style={styles.actionButton}>
-                <Image style={styles.actionIcon} source={require('../assets/icons/undo.png')}/>
+            <TouchableOpacity style={styles.actionButton} onPress={() => { alerts.appInformation(); }}>
+                <Image style={styles.actionIcon} source={require('../assets/icons/info.png')}/>
             </TouchableOpacity>
         </View>
     );
@@ -33,7 +35,7 @@ const styles = StyleSheet.create({
     container: {
         height: 60,
         flexDirection: 'row',
-        backgroundColor: theme.colors.a3,
+        backgroundColor: theme.colors.a1,
         justifyContent: 'center',
         alignItems: 'center',
         paddingLeft: 15,
