@@ -5,8 +5,11 @@
 set prjName=Translator-Mobile
 set prjPath=/Users\marke\React-Native\Translator-Mobile
 set andStudio=/Program Files\Android\Android Studio\bin
+set gitDesktop=C:\ProgramData\marke\GitHubDesktop
 
 ::testing for android
+cd %gitDesktop%
+start GitHubDesktop.exe
 cd %andStudio%
 start studio64.exe
 cd %prjPath%
