@@ -1,6 +1,7 @@
 # Translite: Mobile Translator
 
-## Version Feature History
+
+### Version Feature History
 **1.0**
 - Image to text input (OCR) from camera or library
 - 78 languages available
@@ -13,7 +14,7 @@
 - Clear input button
 - Loading indicator while performing translation
         
-## Contributors
+### Contributors
 
 - Mark Sherriff
   
