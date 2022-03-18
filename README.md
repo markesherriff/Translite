@@ -1,9 +1,8 @@
 # Translite: Mobile Translator
 This mobile app is written by Mark Sherriff using React Native. It's published on Apple App Store and Google Play Store.
 
-### Quick Demo
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cvNTddy40i0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Breif Demo
+[<img alt="youtube link to watch demo" width="50%" src="./transliteDemoThumbnail.png" />](https://www.youtube.com/watch?v=cvNTddy40i0)
 
 ### Version Feature History
 **1.0**
