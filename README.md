@@ -1,5 +1,5 @@
 # Translite: A React-Native Mobile Translator
-This mobile app is written by Mark Sherriff using React Native. It's published on Apple App Store and Google Play Store.
+This mobile app is written by Mark Sherriff using React Native. It's ready to be published on Apple App Store and Google Play Store.
 
 ### Brief Demo
 [<img alt="youtube link to watch demo" width="50%" src="./transliteDemoThumbnail.png" />](https://www.youtube.com/watch?v=cvNTddy40i0)
